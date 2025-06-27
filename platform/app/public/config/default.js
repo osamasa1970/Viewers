@@ -103,7 +103,7 @@ window.config = {
       namespace: '@ohif/extension-default.dataSourcesModule.dicomweb',
       sourceName: 'dicomweb',
       configuration: {
-        friendlyName: 'AWS S3 Static wado server',
+        friendlyName: 'AWS HealthImaging DicomWeb',
         name: 'aws',
         wadoUriRoot: 'https://30td0wnj5j.execute-api.us-east-1.amazonaws.com/V1',
         qidoRoot: 'https://30td0wnj5j.execute-api.us-east-1.amazonaws.com/V1',
@@ -127,7 +127,7 @@ window.config = {
         omitQuotationForMultipartRequest: true,
       },
     },
-
+/*
     {
       namespace: '@ohif/extension-default.dataSourcesModule.dicomweb',
       sourceName: 'ohif2',
@@ -267,6 +267,7 @@ window.config = {
         friendlyName: 'dicom local',
       },
     },
+*/
   ],
   httpErrorHandler: error => {
     // This is 429 when rejected from the public idc sandbox too often.
