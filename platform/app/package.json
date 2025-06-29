@@ -64,6 +64,7 @@
     "@ohif/extension-dicom-microscopy": "3.11.0-beta.65",
     "@ohif/extension-dicom-pdf": "3.11.0-beta.65",
     "@ohif/extension-dicom-video": "3.11.0-beta.65",
+    "@ohif/extension-aws-healthimaging": "3.11.0-beta.65",
     "@ohif/extension-test": "3.11.0-beta.65",
     "@ohif/extension-ultrasound-pleura-bline": "3.11.0-beta.65",
     "@ohif/i18n": "3.11.0-beta.65",
